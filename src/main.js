@@ -12,6 +12,8 @@ import elementui from 'element-ui';
 // 引入element-ui css样式
 import 'element-ui/lib/theme-chalk/index.css';
 
+import './assets/css/index.css';
+
 // 引入插件 axios
 import MyHttp from '@/plugs/MyHttp';
 
