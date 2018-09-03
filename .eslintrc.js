@@ -19,11 +19,13 @@ module.exports = {
   plugins: [
     'vue'
   ],
-  // add your custom rules here
+  // add your custom rules here 添加自己的代码规范
   rules: {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'semi': ['error', 'always'],
+	  'space-before-function-paren': 'off'
   }
 }
